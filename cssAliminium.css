@@ -1,0 +1,28 @@
+
+/*Pour tout le document : fond rgb(204,255,255), 
+police Times New Roman, bleu foncé (navy)*/
+body {
+	background-color: rgb(204,255,255);
+	color:navy ;
+	font-family:  "Times New Roman";
+}
+
+/*Pour H1 bordure double blanche 3pt, fond bleu 
+foncé (navy), texte centré, blanc, 18pt, largeur 60%*/
+h1 { border:  3px double ;text-align:center; color :white;
+	background-color: navy;width:60%;font-size:18pt;}
+
+
+/*Pour H2 texte 16pt, souligné, rouge*/
+ h2{font-size:16pt; text-decoration:underline;color:red; }
+/*Pour H3 texte 14pt, italique, vert, marge à gauche 5pt*/
+h3{font-size:16pt; font-style: italic;color:green;margin-left:5pt;}
+/*Pour P texte justifié, gras, marge à gauche 10pt*/
+p{text-align: justify;font-weight: bold;margin-left: 10pt;}
+/*Pour UL texte gras, puces carrées, marge à gauche 15pt*/
+ul{font-weight: bold;list-style: square;margin-left: 15pt;}
+/*Pour OL texte gras, puces chiffres 
+romains en minuscule, marge à gauche 15pt*/
+ol{font-weight:bold; list-style-type:lower-roman; }
+
+
